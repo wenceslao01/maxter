@@ -1,0 +1,46 @@
+<div class="row">
+  <div ng-controller="sessionController" ng-init="init()" class="panel col-md-6 col-md-offset-3">
+  <fieldset>
+  <legend>
+    <span>Inicio de Sesión</span>
+    <a href="http://southsystemsar.com/" target="_blank" class="pull-right" style="margin-top:-3px"><img src="img/southsystemsar.png" /></a>
+  </legend>
+
+  <form name="loginForm" novalidate class="form-horizontal" role="form">
+    <div class="row text-center">
+      <img src="img/logo-fast.png" class="col-md-4 col-md-offset-4" />
+    </div>
+    <br/>
+
+    <div class="form-group">
+      <label for="inputType" class="col-md-2 control-label">eMail:</label>
+      <div class="col-md-9">
+          <input ng-model="email" type="email" class="form-control" id="inputType" placeholder="ejemplo@host.com" maxlength="254" required />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputType" class="col-md-2 control-label">Contraseña:</label>
+      <div class="col-md-9">
+          <input ng-model="password" type="password" class="form-control" id="inputType" placeholder="************" maxlength="35" required />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <span for="inputType" class="col-md-2 control-label"></span>
+      <div class="col-md-7">
+        <input type="checkbox" ng-model="remember" value="true" />
+        <span>Recordarme</span>
+      </div>
+    </div>
+    <span class="label-error">{{loginError}}</span>
+
+    <div class="pull-right">
+      <img ng-show="isLogging" src="img/loader-small.gif" />
+      <button class="btn btn-info btn-large pull-right" ng-click="onLogin()"  ng-disabled='!loginForm.$valid || isLogging'>Login</button>
+    </div>
+  </form>
+
+  </fieldset>
+  </div>
+</div>

@@ -1,0 +1,113 @@
+<div class="row panel " ng-controller="roleController" ng-init="init()">
+<fieldset>
+<legend>Gestión de Roles de Usuario</legend>
+
+  <div class="text-center">
+    <img ng-show="isLoading" src="img/loader-big.gif">
+  </div>
+  <form ng-hide="isLoading" name="formModel" novalidate="">
+    <div class="row">
+      <div class="col-sm-7 form-inline">
+        <div class="form-group">
+          <select ng-model="searchType" class="form-control">
+            <option value="">Buscar por...</option>
+            <option value="name">Nombre</option>
+            <option value="description">Descripción</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="text" ng-model="searchText" class="form-control" placeholder="Ingrese su Búsqueda">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" ng-click="loadPage()"><span class="glyphicon glyphicon-search"></span></button>
+        </div>
+      </div>
+
+      <!--
+      <div class="col-sm-4 pull-right">
+        <div class="btn-group pull-right">
+          <a class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+          <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Herramientas</button>
+          <ul class="dropdown-menu">
+            <li><a href="caca">Imprimir</a></li>
+            <li><a>Exportar a PDF</a></li>
+            <li><a>Exportar a Excel</a></li>
+          </ul>
+        </div>
+      </div>
+    	-->
+    </div>
+
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th class="col-xs-4">Rol de Usuario</th>
+          <th>Descripción</th>
+          <th class="col-xs-1">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="element in roles" ng-include="getTemplate(element)" ng-form="form{{element.id}}"></tr>
+        <tr ng-init="element = { $$isNew : true }" ng-include="'edit'" ng-form="formNew"></tr>
+      </tbody>
+    </table>
+
+    <div class="input-group pull-right">
+      <span class="col-xs-4">
+        Mostrar:
+        <select ng-change="onPageChange()" class="form-control input-sm" ng-model="pageSize">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+        </select>
+      </span>
+      <span class="btn-group">
+        <div>
+
+          <pagination ng-change="onPageChange()" max-size="5" items-per-page="pageSize" boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></pagination>
+        </div>
+      </span>
+    </div>
+  </form>
+
+  <!-- View Row-->
+  <script type="text/ng-template" id="view">
+    <td>
+      {{element.name}}
+    </td>
+    <td>
+      <span >{{element.description}}</span>
+    </td>
+    <td class="center" ng-include="'buttons'"></td>
+  </script>
+
+  <!-- Edit Row-->
+  <script type="text/ng-template" id="edit">
+    <td>
+      <input ng-model="element.selected.name" type="text" class="form-control" maxlength="35" required placeholder="Nombre del Rol de Usuario" />
+      <input ng-model="element.selected.id" type="hidden" />
+    </td>
+    <td>
+      <textarea ng-model="element.selected.description" class="form-control" maxlength="1024" placeholder="Ingrese una descripción del Rol de Usuario."></textarea>
+    </td>
+    <td class="center" ng-include="'buttons'"></td>
+  </script>
+
+  <!-- Buttons -->
+  <script type="text/ng-template" id="buttons">
+    <div ng-hide="element.$$isNew || element.$$isUpdating" class="btn-group form-btn-group">
+      <button ng-click="remove(element)" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"></span></button>
+      <button ng-click="update(element)" ng-show="element.$$isEditing"  class="btn btn-success btn-sm"><span class="glyphicon glyphicon-ok"></span></button>
+      <button ng-click="edit(element)" ng-hide="element.$$isEditing" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-pencil"></span></button>
+    </div>
+    <div ng-show="element.$$isNew && !element.$$isUpdating" class="btn-group">
+      <button ng-click="insert(element)" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span></button>
+    </div>
+    <img ng-show="element.$$isUpdating" src="img/loader-small.gif" />
+  </script>
+
+</fieldset>
+</div>

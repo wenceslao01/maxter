@@ -1,0 +1,154 @@
+<div class="row panel " ng-controller="userProfileController" ng-init="init()">
+<fieldset>
+<legend>Perfil de Usuario</legend>
+
+  <div class="text-center">
+    <img ng-show="isLoading" src="img/loader-big.gif">
+  </div>
+  <form ng-hide="isLoading" name="formModel" novalidate="" class="form-horizontal">
+
+  <div class="col-md-6">
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Nombre</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.first_name" type="text" class="form-control" maxlength="35" required placeholder="Nombre" disabled />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Apellido</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.last_name" type="text" class="form-control" maxlength="35" required placeholder="Apellido" disabled />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Rol de Usuario</label>
+      <div class="col-md-6">
+          <select ng-model="element.selected.id_role" class="form-control" required ng-options="role.id as role.name for role in roles" disabled>
+            <option value="">Elegir...</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">eMail</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.email" type="email" class="form-control" maxlength="254" required placeholder="eMail" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Teléfono</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.phone" type="text" class="form-control" maxlength="15" placeholder="Teléfono" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Dirección</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.address" type="text" class="form-control" maxlength="40" placeholder="Dirección" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Observación</label>
+      <div class="col-md-6">
+          <textarea ng-model="element.selected.description" class="form-control" maxlength="1024" placeholder="Observaciones del Usuario."></textarea>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Contraseña</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.password" type="password" class="form-control" maxlength="40" placeholder="Contraseña" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Fecha de Nacimiento</label>
+      <div class="col-md-6">
+          <p class="input-group">
+            <input type="text" class="form-control" datepicker-popup="dd/MM/yyyy" ng-model="element.selected.birthday" is-open="birthday_isOpened" close-text="Salir" current-text="Hoy" clear-text="Cancelar" cs-date-to-iso />
+            <span class="input-group-btn">
+              <button type="button" class="btn btn-default" ng-click="birthday_isOpened=!$event.stopPropagation()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+          </p>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="radios">Sexo</label>
+      <div class="col-md-6">
+      <div class="radio">
+        <label for="radios-0">
+          <input ng-model="element.selected.sex" type="radio" name="sex" value="M">
+          Masculino
+        </label>
+      </div>
+      <div class="radio">
+        <label for="radios-1">
+          <input ng-model="element.selected.sex" type="radio" name="sex" value="F">
+          Femenenino
+        </label>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">País</label>
+      <div class="col-md-6">
+          <select ng-model="element.selected.id_country" ng-change="loadStates(element.selected.id_country, this)" ng-options="country.id as country.name for country in countries" class="form-control">
+            <option value="">Elegir...</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Provincia</label>
+      <div class="col-md-6">
+          <select ng-model="element.selected.id_state" ng-change="loadCities(element.selected.id_state, this)" ng-options="state.id as state.name for state in states" class="form-control">
+            <option value="">Elegir...</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Ciudad</label>
+      <div class="col-md-6">
+          <select ng-model="element.selected.id_city" class="form-control" ng-options="city.id as city.name for city in cities">
+            <option value="">Elegir...</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Código Postal</label>
+      <div class="col-md-6">
+          <input ng-model="element.selected.zip_code" type="text" class="form-control" maxlength="10" placeholder="Código Postal" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-12">
+    <div class=" pull-right">
+      <img ng-show="element.$$isUpdating" src="img/loader-small.gif" />
+      <button ng-click="save(element)" ng-disabled="element.$$isUpdating" class="btn btn-success">
+        <span class="glyphicon glyphicon-ok"></span> Guardar
+      </button>
+      <button ng-click="cancel()" ng-disabled="element.$$isUpdating" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove"></span> Cancelar
+      </button>
+    </div>
+  </div>
+
+</form>
+</fieldset>
+</div>

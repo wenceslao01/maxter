@@ -1,0 +1,153 @@
+<div class="row panel " ng-controller="accountingEntryClientController" ng-init="initOnLoaded()">
+<fieldset>
+<legend>Cuenta Corriente</legend>
+  <div class="text-center">
+    <img ng-show="isLoading" src="img/loader-big.gif">
+  </div>
+  <form ng-hide="isLoading" name="formModel" novalidate="">
+    <!--
+    <div class="row">
+      <div class="col-sm-7 form-inline">
+        <div class="form-group">
+          <select ng-model="searchType" class="form-control">
+            <option value="">Buscar por...</option>
+            <option value="first_name">Fecha</option>
+            <option value="last_name">Tipo</option>
+            <option value="description">Observación</option>
+            <option value="email">Débito</option>
+            <option value="phone">Crédito</option>
+            <option value="address">Saldo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="text" ng-model="searchText" class="form-control" placeholder="Ingrese su Búsqueda">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" ng-click="loadPage()"><span class="glyphicon glyphicon-search"></span></button>
+        </div>
+      </div>
+
+    </div>
+  -->
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th class="col-xs-2">Fecha</th>
+          <th class="col-xs-2">Tipo</th>
+          <th>Observación</th>
+          <th class="col-xs-1">Débito</th>
+          <th class="col-xs-1">Crédito</th>
+          <th class="col-xs-1">Saldo</th>
+          <th class="col-xs-1">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="element in elements" ng-include="getTemplate(element)" ng-form="form{{element.id}}"></tr>
+        <tr ng-init="element = { $$isNew : true }" ng-include="'accountingEntry/edit'" ng-form="formNew"></tr>
+      </tbody>
+    </table>
+
+
+    <span class="balance">Saldo Total: <span ng-class="{'red' : balanceNegative, 'green' : !balanceNegative}">{{balance}}</span></span>
+
+    <div class="input-group pull-right">
+      <span class="col-xs-4">
+        Mostrar:
+        <select ng-change="onPageChange()" class="form-control input-sm" ng-model="pageSize">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+        </select>
+      </span>
+      <span class="btn-group">
+        <div>
+
+          <pagination ng-change="onPageChange()" max-size="5" items-per-page="pageSize" boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></pagination>
+        </div>
+      </span>
+    </div>
+  </form>
+
+  <!-- View Row-->
+  <script type="text/ng-template" id="accountingEntry/view">
+    <td>
+      {{element.id}}
+    </td>
+    <td>
+        <input type="text" class="form-control" datepicker-popup="dd/MM/yyyy" ng-model="element.payment_date" cs-date-to-iso ng-disabled="true" />
+    </td>
+    <td>
+      <span ng-repeat="accountType in accountTypes | filter:{id:element.id_account_type}:true">
+        <span>{{accountType.name}}</span>
+      </span>
+      <img ng-show="accountTypes==null" src="img/loader-small.gif" />
+    </td>
+    <td>
+      {{element.description}}
+    </td>
+    <td>
+      {{helper.convertToMoney(element.debit)}}
+    </td>
+    <td>
+      {{helper.convertToMoney(element.credit)}}
+    </td>
+    <td>
+      <span>{{helper.convertToMoney(getSaldo($index))}}</span>
+    </td>
+    <!--<td class="center" ng-include="'accountingEntry/buttons'"></td>-->
+  </script>
+
+  <!-- Edit Row-->
+  <script type="text/ng-template" id="accountingEntry/edit">
+    <td>
+      {{element.id}}
+    </td>
+    <td>
+      <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="dd/MM/yyyy" ng-model="element.selected.payment_date" is-open="payment_date_isOpened" close-text="Salir" current-text="Hoy" clear-text="Cancelar" cs-date-to-iso required />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default" ng-click="payment_date_isOpened=!$event.stopPropagation()"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
+      <input ng-model="element.selected.id_client" type="hidden" />
+    </td>
+    <td>
+      <select ng-model="element.selected.id_account_type" class="form-control" required ng-options="accountType.id as accountType.name for accountType in accountTypes">
+        <option value="">Cuenta...</option>
+      </select>
+    </td>
+    <td>
+      <textarea ng-model="element.selected.description" class="form-control" maxlength="1024" placeholder="Observaciones de la transacción."></textarea>
+    </td>
+    <td>
+      <input ng-model="element.selected.debit" ng-change="onChangeDebit(element)" type="number" class="form-control" maxlength="10" placeholder="Débito" required />
+    </td>
+    <td>
+      <input ng-model="element.selected.credit" ng-change="onChangeCredit(element)" type="number" class="form-control" maxlength="10" placeholder="Crédito" required />
+    </td>
+    <td>
+    </td>
+    <td class="center" ng-include="'accountingEntry/buttons'"></td>
+  </script>
+
+  <!-- Buttons -->
+  <script type="text/ng-template" id="accountingEntry/buttons">
+    <!--
+    <div ng-hide="element.$$isNew || element.$$isUpdating" class="btn-group form-btn-group">
+      <button ng-click="remove(element)" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"></span></button>
+      <button ng-click="update(element)" ng-show="element.$$isEditing"  class="btn btn-success btn-sm"><span class="glyphicon glyphicon-ok"></span></button>
+      <button ng-click="edit(element)" ng-hide="element.$$isEditing" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-pencil"></span></button>
+    </div>
+    -->
+    <div ng-show="element.$$isNew && !element.$$isUpdating" class="btn-group">
+      <button ng-click="insert(element)" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span></button>
+    </div>
+    <img ng-show="element.$$isUpdating" src="img/loader-small.gif" />
+  </script>
+
+</fieldset>
+</div>

@@ -1,0 +1,40 @@
+<div ng-controller="modalController">
+    <script type="text/ng-template" id="modal-confirm">
+        <div class="modal-header">
+            <h3 class="modal-title">¡Atención!</h3>
+        </div>
+        <div class="modal-body">
+          <span>¿Está seguro de que desea eliminar '<b>{{label}}</b>'?</span>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
+            <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+        </div>
+    </script>
+
+    <script type="text/ng-template" id="modal-alert">
+        <div class="modal-header">
+            <h3 class="modal-title">¡Atención!</h3>
+            <div class="pull-right">
+                <img style="position:absolute; margin: -44px 0 0 -50px" src="img/bell.png" />
+            </div>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li ng-repeat="userNotification in userNotifications">
+              <div>
+                <a href="{{userNotification.idNotification.link}}">{{helper.convertDate(userNotification.idNotification.date)}} - {{userNotification.idNotification.description}}</a>
+              </div>
+            </li>
+          </ul>
+          <audio autoplay>
+              <source src="sounds/alert.ogg" type="audio/ogg">
+              <source src="sounds/alert.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
+        </div>
+    </script>
+</div>

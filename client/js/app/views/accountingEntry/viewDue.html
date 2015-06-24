@@ -1,0 +1,36 @@
+<div class="row panel " ng-controller="accountingEntryViewToDoController" ng-init="init()">
+<fieldset>
+<legend>Deuda Pendiente</legend>
+  <div class="text-center">
+    <img ng-show="isLoading" src="img/loader-big.gif">
+  </div>
+  <form ng-hide="isLoading" name="formModel" novalidate="">
+
+    <table class="table table-striped table-bordered">
+      <tbody>
+        <tr>
+          <th class="col-md-2">Fecha</th>
+          <td>{{helper.convertDate(element.payment_due_date)}}</td>
+        </tr>
+        <tr>
+          <th>Cliente</th>
+          <td>{{element.idClient.name}}</td>
+        </tr>
+        <tr>
+          <th>Tipo de Cuenta</th>
+          <td>{{element.idAccountType.name}}</td>
+        </tr>
+        <tr>
+          <th>Observación</th>
+          <td>{{element.description}}</td>
+        </tr>
+        <tr>
+          <th>Monto</th>
+          <td>{{helper.convertToMoney(element.credit)}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+
+</fieldset>
+</div>
