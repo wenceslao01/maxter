@@ -15,7 +15,7 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 		var pagination = '&pageSize=' + $scope.pageSize + '&currentPage=' + $scope.currentPage;
 
 		$scope.isLoading = true;
-		$rootScope.helper.ajax('/provider/search.json?' + search + pagination
+		$rootScope.helper.ajax('/provider/search.json?' + search + pagination + fieldOrder + order
 			, ''
 			, function(result) {
 				$scope.isLoading = false;
@@ -70,7 +70,7 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 			return;
 		}
 
-		$rootScope.modal.remove(element.first_name + ' ' + element.last_name, function() {
+		$rootScope.modal.remove(element.first_name, function() {
 			element.$$isUpdating = true;
 			$rootScope.helper.ajax('/provider/remove.json'
 				, { model : element }

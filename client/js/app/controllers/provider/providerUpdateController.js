@@ -29,10 +29,10 @@ app.controller('providerUpdateController', function($scope, $rootScope, $routePa
 
 	$scope.onCompleteLoad = function() {
 		$rootScope.loadCountries($scope);
-		if ($scope.element.id_country) {
+		if (!!$scope.element && !!$scope.element.id_country) {
 			$rootScope.loadStates($scope.element.id_country, $scope);
 		}
-		if ($scope.element.id_state) {
+		if (!!$scope.element && !!$scope.element.id_state) {
 			$rootScope.loadCities($scope.element.id_state, $scope);
 		}
 	}
