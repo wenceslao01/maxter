@@ -18,8 +18,8 @@ class ProviderController extends Controller
 			$criteria->addCondition('date_deleted IS NULL');
 		}
 
-		if (isset($_GET['sort'])) {
-			$criteria->order = $_GET['sortBy'] . ' ' . $_GET['sort'];
+		if (isset($_GET['orderField'])) {
+			$criteria->order = $_GET['orderField'] . ' ' . $_GET['order'];
 		}
 
 		$total = $model->count($criteria);

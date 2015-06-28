@@ -209,7 +209,7 @@ create table `provider` (
     `id` bigint(20) unsigned not null auto_increment,
     `date_created` datetime,
     `date_deleted` datetime,
-    `first_name` varchar(35) not null,
+    `name` varchar(35) not null,
     `email` varchar(254),
     `phone` varchar(20),
     `address` varchar(40),

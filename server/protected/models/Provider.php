@@ -7,7 +7,7 @@
  * @property string $id
  * @property string $date_created
  * @property string $date_deleted
- * @property string $first_name
+ * @property string $name
  * @property string $email
  * @property string $phone
  * @property string $address
@@ -40,8 +40,8 @@ class Provider extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name', 'required'),
-			array('first_name', 'length', 'max'=>35),
+			array('name', 'required'),
+			array('name', 'length', 'max'=>35),
 			array('email', 'length', 'max'=>254),
 			array('phone', 'length', 'max'=>20),
 			array('address', 'length', 'max'=>40),
@@ -50,7 +50,7 @@ class Provider extends CActiveRecord
 			array('id, date_created, date_deleted, description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, date_created, date_deleted, first_name, email, phone, address, description, id_country, id_state, id_city, zip_code', 'safe', 'on'=>'search'),
+			array('id, date_created, date_deleted, name, email, phone, address, description, id_country, id_state, id_city, zip_code', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -77,7 +77,7 @@ class Provider extends CActiveRecord
 			'id' => 'ID',
 			'date_created' => 'Date Created',
 			'date_deleted' => 'Date Deleted',
-			'first_name' => 'First Name',
+			'name' => 'Name',
 			'email' => 'Email',
 			'phone' => 'Phone',
 			'address' => 'Address',
@@ -110,7 +110,7 @@ class Provider extends CActiveRecord
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('date_created',$this->date_created,true);
 		$criteria->compare('date_deleted',$this->date_deleted,true);
-		$criteria->compare('first_name',$this->first_name,true);
+		$criteria->compare('name',$this->name,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('phone',$this->phone,true);
 		$criteria->compare('address',$this->address,true);
