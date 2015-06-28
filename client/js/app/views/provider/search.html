@@ -1,6 +1,6 @@
 <div class="row panel " ng-controller="providerSearchController" ng-init="init()">
 <fieldset>
-<legend>Gestión de Técnicos</legend>
+<legend>Gestión de Proveedores</legend>
   <div class="text-center">
     <img ng-show="isLoading" src="img/loader-big.gif">
   </div>
@@ -42,10 +42,10 @@
     <table class="table table-striped table-bordered">
       <thead>
         <tr>
-          <th class="col-xs-2">Proveedor</th>
-          <th class="col-xs-2">eMail</th>
-          <th class="col-xs-2">Teléfono</th>
-          <th class="col-xs-2">Dirección</th>
+          <th class="col-xs-2">Proveedor<span class= "sort-arrows"><a href ng-click="changeOrder('providor', 'ascendant')" class="orderArrow"><span class="glyphicon glyphicon-arrow-down"></span></a><a href ng-click="changeOrder('providor', 'ascendant')"><span class="glyphicon glyphicon-arrow-up"></span></a></span></th>
+          <th class="col-xs-2">eMail<span class= "sort-arrows"><a href ng-click="changeOrder('eMail', 'ascendant')" class="orderArrow"><span class="glyphicon glyphicon-arrow-down"></span></a><a href ng-click="changeOrder('eMail', 'ascendant')"><span class="glyphicon glyphicon-arrow-up"></span></a></span></th>
+          <th class="col-xs-2">Teléfono<span class= "sort-arrows"><a href ng-click="changeOrder('phone', 'ascendant')" class="orderArrow"><span class="glyphicon glyphicon-arrow-down"></span></a><a href ng-click="changeOrder('phone', 'ascendant')"><span class="glyphicon glyphicon-arrow-up"></span></a></span></th>
+          <th class="col-xs-2">Dirección<span class= "sort-arrows"><a href ng-click="changeOrder('address', 'ascendant')" class="orderArrow"><span class="glyphicon glyphicon-arrow-down"></span></a><a href ng-click="changeOrder('address', 'ascendant')"><span class="glyphicon glyphicon-arrow-up"></span></a></span></th>
           <th>Observación</th>
           <th class="col-xs-1">Acciones</th>
         </tr>

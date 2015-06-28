@@ -228,6 +228,10 @@ input[type="color"],
   min-width: 70px;
 }
 
+span.sort-arrows{
+  padding-left: 1em;
+}
+
 .panel {
   padding:10px;
   border-radius: 20px 20px 20px 20px;

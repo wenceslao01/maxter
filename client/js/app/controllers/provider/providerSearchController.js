@@ -4,18 +4,19 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 			$scope.pageSize = 10;
 			$scope.currentPage = 1;
 			$scope.loadPage();
+			$scope.order='descendant';
+			$scope.orderField='name';
 	}
 
 	$scope.loadPage = function() {
-		var search = '';
+		var search = '', pagination, order;
 		if ($scope.searchText != '' && $scope.searchType != undefined) {
 			search = 'model[' + $scope.searchType + ']=' + $scope.searchText;
 		}
-
-		var pagination = '&pageSize=' + $scope.pageSize + '&currentPage=' + $scope.currentPage;
-
+		pagination = '&pageSize=' + $scope.pageSize + '&currentPage=' + $scope.currentPage;
+		order= '&order=' + $scope.order + '&orderField=' + $scope.orderField;
 		$scope.isLoading = true;
-		$rootScope.helper.ajax('/provider/search.json?' + search + pagination + fieldOrder + order
+		$rootScope.helper.ajax('/provider/search.json?' + search + pagination + order
 			, ''
 			, function(result) {
 				$scope.isLoading = false;
@@ -24,6 +25,13 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 			}
 		);
 	};
+
+	$scope.changeOrder= function(field, order){
+		$scope.orderField= field;
+		$scope.order= order;
+		$scope.loadPage();
+	};
+
 
 	$scope.insert = function(element) {
 		if ($scope.formModel['formNew'].$invalid) {

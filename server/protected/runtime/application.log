@@ -19674,3 +19674,24 @@ in C:\xampp\htdocs\maxter\server\index.php (13)
 2015/06/18 04:24:57 [warning] [application] Failed to set unsafe attribute "0" of "Provider".
 in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (11)
 in C:\xampp\htdocs\maxter\server\index.php (13)
+2015/06/28 07:57:47 [warning] [application] Failed to set unsafe attribute "$$isEditing" of "Provider".
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (54)
+in C:\xampp\htdocs\maxter\server\index.php (13)
+2015/06/28 07:57:47 [warning] [application] Failed to set unsafe attribute "$$isEditing" of "Provider".
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (101)
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (55)
+in C:\xampp\htdocs\maxter\server\index.php (13)
+2015/06/28 07:57:52 [warning] [application] Failed to set unsafe attribute "$$isEditing" of "Provider".
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (54)
+in C:\xampp\htdocs\maxter\server\index.php (13)
+2015/06/28 07:57:52 [warning] [application] Failed to set unsafe attribute "$$isEditing" of "Provider".
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (101)
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (55)
+in C:\xampp\htdocs\maxter\server\index.php (13)
+2015/06/28 07:57:58 [warning] [application] Failed to set unsafe attribute "$$isEditing" of "Provider".
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (54)
+in C:\xampp\htdocs\maxter\server\index.php (13)
+2015/06/28 07:57:58 [warning] [application] Failed to set unsafe attribute "$$isEditing" of "Provider".
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (101)
+in C:\xampp\htdocs\maxter\server\protected\controllers\ProviderController.php (55)
+in C:\xampp\htdocs\maxter\server\index.php (13)
