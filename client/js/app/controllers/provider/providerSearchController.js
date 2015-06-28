@@ -4,7 +4,7 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 			$scope.pageSize = 10;
 			$scope.currentPage = 1;
 			$scope.loadPage();
-			$scope.order='descendant';
+			$scope.order='desc';
 			$scope.orderField='name';
 	}
 

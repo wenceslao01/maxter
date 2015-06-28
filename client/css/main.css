@@ -229,7 +229,7 @@ input[type="color"],
 }
 
 span.sort-arrows{
-  padding-left: 1em;
+  float:right;
 }
 
 .panel {
