@@ -1,0 +1,214 @@
+Dudas:
+- Empleados, Empresas, Usuarios... todos van a tener Logging
+
+DataBase: maxter
+
+country
+id    : int(11) not null
+code  : varchar(2) not null
+name  : varchar(100) not null
+
+state
+id          : int(11) not null
+id_country  : int(11) not null
+name        : varchar(45) not null
+
+city
+id        : int(11) not null
+id_state  : int(11) not null
+name      : varchar(45) not null
+
+role
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+description   : text
+
+
+user
+id                : bigint(20) not null
+date_created      : datetime
+date_deleted      : datetime
+id_role           : bigint(20) not null
+password          : char(16)
+password_question : varchar(200)
+password_answer   : varchar(100)
+first_name        : varchar(35) not null
+last_name         : varchar(35) not null
+sex               : char(1)
+email             : varchar(254)
+phone             : varchar(20)
+birthday          : datetime
+address           : varchar(40)
+description       : text
+id_country        : int
+id_state          : int
+id_city           : int
+zip_code          : varchar(10)
+
+permission
+id                : bigint(20) not null
+date_created      : datetime
+date_deleted      : datetime
+name              : varchar(35) not null
+description       : text
+
+permission_assigned
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+id_permission : bigint(20) not null
+id_user       : bigint(20)
+id_role       : bigint(20)
+
+user_session
+id          : bigint(20) not null
+id_user     : bigint(20) not null
+logon_date  : datetime
+logoff_date : datetime
+ip_address  : varchar(45)
+user_agent  : varchar(413)
+
+log
+id            : bigint(20) not null
+date_created  : datetime
+id_user       : bigint(20)
+tablename     : varchar(64)
+id_row        : bigint(20)
+type          : char(1) not null
+description   : text
+
+notification
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+date          : datetime not null
+priority      : tinyint not null
+id_role       : bigint(20)
+id_user       : bigint(20)
+description   : text
+link          : varchar(2083)
+
+user_notification
+id              : bigint(20) not null
+id_notification : bigint(20) not null
+id_user         : bigint(20) not null
+checked         : tinyint(1) not null
+
+provider
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+email         : varchar(254)
+web           : varchar(254)
+phone         : varchar(20)
+address       : varchar(40)
+description   : text
+id_country    : int
+id_state      : int
+id_city       : int
+zip_code      : varchar(10)
+
+employee
+id                      : bigint(20) not null
+date_created            : datetime
+date_deleted            : datetime
+id_role                 : bigint(20) not null
+password                : char(16)
+password_question       : varchar(200)
+password_answer         : varchar(100)
+first_name              : varchar(35) not null
+last_name               : varchar(35) not null
+sex                     : char(1)
+email                   : varchar(254)
+dni                     : varchar(20)
+phone                   : varchar(20)
+birthday                : datetime
+address                 : varchar(40)
+description             : text
+id_country              : int
+id_state                : int
+id_city                 : int
+zip_code                : varchar(10)
+dni                     : varchar(20)
+id_insurance_company    : bigint(20)
+insurance_company_code  : varchar(20)
+salary                  : double?
+payment_type            : int
+payment_date            : datetime
+date_contract_end       : datetime
+id_job                  : bigint(20)
+
+insurance_company
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+description   : text
+
+job
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+description   : text
+
+equipment
+id              : bigint(20) not null
+date_created    : datetime
+date_deleted    : datetime
+name            : varchar(35) not null
+description     : text
+status          : int
+id_employee     : bigint(20)
+id_provider     : bigint(20)
+delivery _date  : datetime
+
+company
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+email         : varchar(254)
+web           : varchar(254)
+phone         : varchar(20)
+address       : varchar(40)
+description   : text
+id_country    : int
+id_state      : int
+id_city       : int
+zip_code      : varchar(10)
+
+group
+id              : bigint(20) not null
+date_created    : datetime
+date_deleted    : datetime
+master          : int
+date_check_in   : datetime
+date_check_out  : datetime
+id_company      : bigint(20)
+hotel           : ?varchar
+description     : text
+passengers      : int
+status          : int
+delivery_point  : varchar(30)
+demo_point      : varchar(30)
+
+product
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+price         : ?money
+description   : text
+
+material
+id            : bigint(20) not null
+date_created  : datetime
+date_deleted  : datetime
+name          : varchar(35) not null
+price         : ?money
+description   : text
+

@@ -19,7 +19,7 @@ class ProviderController extends Controller
 		}
 
 		if (isset($_GET['orderField'])) {
-			$criteria->order = $_GET['orderField'] . ' ' . $_GET['order'];
+			$criteria->order = 'UPPER(' . $_GET['orderField'] . ') ' . $_GET['order'];
 		}
 
 		$total = $model->count($criteria);
