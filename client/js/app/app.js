@@ -330,6 +330,17 @@ app.directive("csDateToIso", function ($filter) {
     };
 });
 
+// app.directive('sortingArrow', function(){
+//   return{
+//     restrict: 'AE',
+//     templateUrl: 'client/js/app/views/directives/sorting-arrow.html',
+//     link: function(scope, element, attributes){
+//         this.title= attributes.title;
+//         this.order= attributes.order;
+//         this.field=attributes.field;
+//     }
+// };
+// });
 
 /*
 app.run(function($rootScope, $location, authUsers){

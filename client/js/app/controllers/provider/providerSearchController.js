@@ -3,9 +3,9 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 	$scope.init = function() {
 			$scope.pageSize = 10;
 			$scope.currentPage = 1;
-			$scope.loadPage();
 			$scope.order='desc';
 			$scope.orderField='name';
+			$scope.loadPage();
 	}
 
 	$scope.loadPage = function() {
@@ -25,7 +25,6 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 			}
 		);
 	};
-
 	$scope.changeOrder= function(field, order){
 		$scope.orderField= field;
 		$scope.order= order;
@@ -97,7 +96,7 @@ app.controller('providerSearchController', function($scope, $rootScope, $http, $
 	}
 
 	$scope.getTemplate = function(element) {
-		return element.$$isEditing ? 'edit' : 'view';
+		return element.$$isEditing ? 'providerEdit' : 'view';
 	}
 
 
