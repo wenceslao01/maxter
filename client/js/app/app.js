@@ -1,15 +1,18 @@
 var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'uiGmapgoogle-maps']);
 
-app.factory('Config', function() {
+app.factory('Config', function($location) {
     var config = {
         systemName: 'System',
         version: '0.43',
         dateFormat: 'dd/MM/yyyy',
-        baseUrl: 'http://localhost:8080/maxter',
-        //baseUrl: 'http://southsystemsar.com/ascensoft3',
         mockMode: false,
-        debugMode: true,
+        debugMode: false,
     };
+
+    config.baseUrl = $location.absUrl().split('#')[0];
+    if (config.baseUrl.slice(-1) == '/') {
+        config.baseUrl = config.baseUrl.substring(0, config.baseUrl.length - 1);
+    }
 
     config.getSystemName = function() {
         return config.systemName + ' v' + config.version;

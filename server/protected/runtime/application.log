@@ -19819,3 +19819,882 @@ Stack trace:
 #15 {main}
 REQUEST_URI=/maxter/server/provider/search.json?orderField=name&order=asc
 ---
+2015/06/30 21:44:03 [error] [php] Undefined variable: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:8)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (8)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 21:44:25 [error] [php] Undefined variable: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:10)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (10)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:02:27 [error] [php] Undefined index: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:10)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (10)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:02:41 [error] [php] Undefined index: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:10)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (10)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:03:36 [error] [php] Undefined variable: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:13)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (13)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:03:49 [error] [php] Undefined variable: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:13)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (13)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:03:52 [error] [php] Undefined variable: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:13)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (13)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:04:04 [error] [php] Undefined variable: asd (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:14)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/morla.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (14)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:11:13 [error] [php] Undefined variable: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:20)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/search.json?
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (20)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:24:53 [error] [exception.CException] exception 'CException' with message 'ProviderController and its behaviors do not have a method or closure named "actionsearch".' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\actions\CInlineAction.php(49): CComponent->__call('actionsearch', Array)
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\actions\CInlineAction.php(49): ProviderController->actionsearch()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/search')
+#8 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/maxter/server/provider/search.json?
+---
+2015/06/30 22:35:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "find".' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(270): CController->missingAction('find')
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('find')
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/find')
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/maxter/server/provider/find.json?id=4
+---
+2015/06/30 22:35:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?id=1
+---
+2015/06/30 22:35:55 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:176)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json?id=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (176)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:36:06 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:176)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json?model[id~=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (176)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:36:12 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:176)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json?model[id~=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (176)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:36:15 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:176)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json?model[id]=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (176)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:36:19 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:176)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json?model[id]=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (176)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/06/30 22:37:49 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php:27)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json?model[id]=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\controllers\ProviderController.php (27)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 17:50:34 [error] [php] Use of undefined constant Provider - assumed 'Provider' (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php:359)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/search.json?orderField=name&order=asc
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 17:53:26 [error] [php] Undefined variable: modelClass (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:121)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/search.json?orderField=name&order=asc
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (121)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 17:54:26 [error] [php] Undefined variable: modelClass (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:121)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/search.json?orderField=name&order=asc
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (121)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 17:56:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "find".' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(270): CController->missingAction('find')
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('find')
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/find')
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/maxter/server/provider/find.json?id=1
+---
+2015/07/12 17:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "find".' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(270): CController->missingAction('find')
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('find')
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/find')
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/maxter/server/provider/find.json
+---
+2015/07/12 18:01:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:02:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:02:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:02:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:02:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:02:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=2
+---
+2015/07/12 18:02:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=2
+---
+2015/07/12 18:03:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:03:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:03:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:03:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:03:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:03:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:04:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:04:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:04:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:04:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search.jso".' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(270): CController->missingAction('search.jso')
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('search.jso')
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/search...')
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/maxter/server/provider/search.jso
+---
+2015/07/12 18:06:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "deledfgte".' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(270): CController->missingAction('deledfgte')
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('deledfgte')
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/deledf...')
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/maxter/server/provider/deledfgte.json?model[id]=1
+---
+2015/07/12 18:06:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+---
+2015/07/12 18:06:57 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:180)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/remove.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (180)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:07:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:07:08 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:171)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/update.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (171)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:07:21 [error] [php] Undefined index: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:195)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/restore.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (195)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:07:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:08:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:09:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:10:29 [error] [php] Undefined index: model (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:171)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(133): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/update.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (171)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:12:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:12:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('user/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/user/delete.json
+---
+2015/07/12 18:24:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:24:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:24:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:24:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:24:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:24:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:31:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): CController->run('delete')
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('provider/delete')
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/maxter/server/provider/delete.json
+---
+2015/07/12 18:34:09 [error] [php] Undefined index: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:213)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (213)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:35:12 [error] [php] Undefined index: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:213)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (213)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:35:21 [error] [php] Undefined index: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:213)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?model[id]=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (213)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:35:29 [error] [php] Undefined index: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:213)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?id=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (213)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:36:41 [error] [php] call_user_func() expects parameter 1 to be a valid callback, class 'Provider' does not have a method 'model()' (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:233)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\actions\CInlineAction.php(49): ProviderController->actionDelete()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?id=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (233)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (214)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:36:54 [error] [php] Object of class Provider could not be converted to string (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:234)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?id=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (234)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (214)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:37:47 [error] [php] Trying to get property of non-object (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:235)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?id=1
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (235)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (214)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:49:37 [error] [php] Undefined index: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:210)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?id=3
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (210)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 18:53:25 [error] [php] Undefined variable: id (C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php:209)
+Stack trace:
+#0 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(286): ProviderController->runAction()
+#1 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CController.php(265): ProviderController->runActionWithFilters()
+#2 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(282): ProviderController->run()
+#3 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php(13): CWebApplication->run()
+REQUEST_URI=/maxter/server/provider/delete.json?id=3
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (209)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 19:25:13 [warning] [application] Failed to set unsafe attribute "first_name" of "Provider".
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (169)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 19:25:13 [warning] [application] Failed to set unsafe attribute "last_name" of "Provider".
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (169)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 19:25:13 [warning] [application] Failed to set unsafe attribute "id_role" of "Provider".
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (169)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 19:25:13 [warning] [application] Failed to set unsafe attribute "first_name" of "Provider".
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (216)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (170)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 19:25:13 [warning] [application] Failed to set unsafe attribute "last_name" of "Provider".
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (216)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (170)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
+2015/07/12 19:25:13 [warning] [application] Failed to set unsafe attribute "id_role" of "Provider".
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (216)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\protected\components\Controller.php (170)
+in C:\Users\lucas_000\Google Drive\projects\php\www\maxter\server\index.php (13)
