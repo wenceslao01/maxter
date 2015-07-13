@@ -52,6 +52,4 @@ app.controller('sessionController', function($scope, $rootScope, $http, $locatio
   };
 
 });
-
-return app;
 });
